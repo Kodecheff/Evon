@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgba(207, 202, 202, 0.452);
+  font-family: 'Roboto';
+}
+
+.main-container{
+  max-width: 700px;
+  margin: auto;
+  background-color: white;
+  height: 100vh;
+}
+
+.walkthroughs{
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+.logo-content{
+  margin-bottom: 30px;
+}
+.logo-content h2{
+  letter-spacing: 2px;
+  font-family: 'Comfortaa';
+}
+
+.walkthroughs .content{
+  margin-bottom: 100px;
+  width: 274px;
+  height: 54px;
+  color: #878FAD;
+}
+
+
+.walkthroughs .btns button{
+  min-width: 265px;
+  height: 48px;
+  padding: 10px 0px;
+  border: 1.5px solid rgba(89, 161, 255, 1);
+  cursor: pointer;
+  outline: none;
+}
+.signup-btn{
+  margin-bottom: 15px;
+  background: linear-gradient(90deg, #59A1FF 19.89%, #3D67F2 100%);
+  color: white;
+}
+.login-btn{
+  margin-bottom: 30px;
+  background-color: white;
+  color: #59A1FF;
+}
+
+.walkthroughs .btns p{
+  color: rgba(61, 139, 242, 1);
+  cursor: pointer;
+}
+
+
+
+/* SIGN UP PAGE */
+.signup-container{
+  max-width: 700px;
+  margin: auto;
+  background-color: white;
+  height: auto;
+}
+.signup-content{
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+input{
+  min-width: 265px;
+  height: 48px;
+  padding: 0px 5px;
+  margin-bottom: 10px;
+  outline: none;
+}
+input[type=submit]{
+  background: linear-gradient(90deg, #59A1FF 19.89%, #3D67F2 100%);
+  color: white;
+  border: 1.5px solid rgba(89, 161, 255, 1);
+}
+
+.social-links{
+  margin-bottom: 15px;
+}
+.social-links button{
+  min-width: 265px;
+  height: 38px;
+  margin-bottom: 10px;
+  outline: none;
+  text-align: justify;
+}
+.facebook-btn{
+  background-color: rgba(74, 110, 168, 1);
+  border: 1px solid rgba(74, 110, 168, 1);
+  color: white;
+}
+.facebook-btn .icon{
+  width: 10.44px;
+  height: 20px;
+  padding: 6px 12px;
+  padding-top: 15px;
+  background-color: rgba(57, 81, 133, 1);
+  margin: 0;
+}
+
+.google-btn{
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(226, 221, 221, 0.753);
+}
+
+.google-btn .icon{
+  width: 10.44px;
+  padding: 7px 9px;
+  padding-top: 15px;
+  margin: 0;
+  border-right: 1px solid rgba(226, 221, 221, 0.753);
+}
+
+.terms{
+  min-width: 265px;
+  max-width: 350px;
+}
+
+.redirect_link a{
+  text-decoration: none;
+  color: #3D67F2;
+}
